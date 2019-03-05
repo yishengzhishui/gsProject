@@ -15,5 +15,5 @@
 //= require activestorage
 //= require turbolinks
 //= require bootstrap/alert
-//= requrie bootstrap/dropdown
+//= require bootstrap/dropdown
 //= require_tree .
