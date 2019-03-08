@@ -45,6 +45,7 @@ gem 'mini_magick'
 gem 'mysql2'
 gem 'better_errors'
 gem 'annotate'
+gem 'rucaptcha'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
