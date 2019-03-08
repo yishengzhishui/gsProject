@@ -10,8 +10,11 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  image       :string(255)
+#  user_id     :integer
 #
 
 class Product < ApplicationRecord
   mount_uploader :image, ImageUploader
+
+  belongs_to :user
 end
