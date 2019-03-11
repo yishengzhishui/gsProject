@@ -8,6 +8,8 @@
                 required: true,
                 autofocus: true,
                 input_html: { autocomplete: "email" } %>
+    <%= rucaptcha_image_tag(alt: 'Captcha') %>
+    <%= rucaptcha_input_tag(class: 'form-control', placeholder: '请输入验证码') %>
   </div>
 
   <div class="form-actions">
